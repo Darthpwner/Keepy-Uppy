@@ -14,6 +14,11 @@
 		6B4A9A951B33E46A00FEA87F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4A9A941B33E46A00FEA87F /* Images.xcassets */; };
 		6B4A9A981B33E46A00FEA87F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4A9A961B33E46A00FEA87F /* LaunchScreen.xib */; };
 		6B4A9AA41B33E46A00FEA87F /* Keepy_UppyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A9AA31B33E46A00FEA87F /* Keepy_UppyTests.swift */; };
+		6B4A9AB21B33E76200FEA87F /* Beach Ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B4A9AAE1B33E76200FEA87F /* Beach Ball.jpg */; };
+		6B4A9AB31B33E76200FEA87F /* Bowling Ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B4A9AAF1B33E76200FEA87F /* Bowling Ball.jpg */; };
+		6B4A9AB41B33E76200FEA87F /* Tennis Ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B4A9AB01B33E76200FEA87F /* Tennis Ball.jpg */; };
+		6B4A9AB71B33E95300FEA87F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A9AB61B33E95300FEA87F /* GameScene.swift */; };
+		6B4A9AB91B33EB8900FEA87F /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A9AB81B33EB8900FEA87F /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		6B4A9A9D1B33E46A00FEA87F /* Keepy UppyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keepy UppyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4A9AA21B33E46A00FEA87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B4A9AA31B33E46A00FEA87F /* Keepy_UppyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keepy_UppyTests.swift; sourceTree = "<group>"; };
+		6B4A9AAE1B33E76200FEA87F /* Beach Ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Beach Ball.jpg"; sourceTree = "<group>"; };
+		6B4A9AAF1B33E76200FEA87F /* Bowling Ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bowling Ball.jpg"; sourceTree = "<group>"; };
+		6B4A9AB01B33E76200FEA87F /* Tennis Ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tennis Ball.jpg"; sourceTree = "<group>"; };
+		6B4A9AB61B33E95300FEA87F /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6B4A9AB81B33EB8900FEA87F /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +91,13 @@
 			children = (
 				6B4A9A8B1B33E46A00FEA87F /* AppDelegate.swift */,
 				6B4A9A8D1B33E46A00FEA87F /* art.scnassets */,
-				6B4A9A8F1B33E46A00FEA87F /* GameViewController.swift */,
 				6B4A9A911B33E46A00FEA87F /* Main.storyboard */,
 				6B4A9A941B33E46A00FEA87F /* Images.xcassets */,
 				6B4A9A961B33E46A00FEA87F /* LaunchScreen.xib */,
+				6B4A9AB61B33E95300FEA87F /* GameScene.swift */,
+				6B4A9A8F1B33E46A00FEA87F /* GameViewController.swift */,
+				6B4A9AB81B33EB8900FEA87F /* GameOverScene.swift */,
+				6B4A9AAD1B33E76200FEA87F /* Balls */,
 				6B4A9A891B33E46A00FEA87F /* Supporting Files */,
 			);
 			path = "Keepy Uppy";
@@ -113,6 +126,16 @@
 				6B4A9AA21B33E46A00FEA87F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B4A9AAD1B33E76200FEA87F /* Balls */ = {
+			isa = PBXGroup;
+			children = (
+				6B4A9AAE1B33E76200FEA87F /* Beach Ball.jpg */,
+				6B4A9AAF1B33E76200FEA87F /* Bowling Ball.jpg */,
+				6B4A9AB01B33E76200FEA87F /* Tennis Ball.jpg */,
+			);
+			path = Balls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,10 +218,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B4A9AB41B33E76200FEA87F /* Tennis Ball.jpg in Resources */,
 				6B4A9A981B33E46A00FEA87F /* LaunchScreen.xib in Resources */,
 				6B4A9A951B33E46A00FEA87F /* Images.xcassets in Resources */,
 				6B4A9A8E1B33E46A00FEA87F /* art.scnassets in Resources */,
 				6B4A9A931B33E46A00FEA87F /* Main.storyboard in Resources */,
+				6B4A9AB31B33E76200FEA87F /* Bowling Ball.jpg in Resources */,
+				6B4A9AB21B33E76200FEA87F /* Beach Ball.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +242,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B4A9AB71B33E95300FEA87F /* GameScene.swift in Sources */,
 				6B4A9A901B33E46A00FEA87F /* GameViewController.swift in Sources */,
+				6B4A9AB91B33EB8900FEA87F /* GameOverScene.swift in Sources */,
 				6B4A9A8C1B33E46A00FEA87F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

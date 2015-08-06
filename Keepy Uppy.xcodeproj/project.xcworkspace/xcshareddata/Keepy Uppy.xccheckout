@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>02095219-6FD7-4DCB-8E57-6B3C23A0B1E7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>52CB8B01AD899B0ADDC477060E75ADFD046EE08F</key>
+		<string>https://github.com/Darthpwner/Keepy-Uppy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Keepy Uppy.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>52CB8B01AD899B0ADDC477060E75ADFD046EE08F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Darthpwner/Keepy-Uppy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>52CB8B01AD899B0ADDC477060E75ADFD046EE08F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>52CB8B01AD899B0ADDC477060E75ADFD046EE08F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Keepy%20Uppy</string>
+		</dict>
+	</array>
+</dict>
+</plist>

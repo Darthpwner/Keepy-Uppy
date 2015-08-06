@@ -6,6 +6,11 @@ public class Arena
 {
 	private functions.Player ball;
 	
+	public static void displayBall()
+	{
+		
+	}
+	
 	public static void displayScore()
 	{
 		System.out.println(functions.Game.getCurrentGameScore());

@@ -21,6 +21,9 @@
 		6B4A9AC81B33F2C300FEA87F /* HitBall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B4A9AC21B33F2C300FEA87F /* HitBall.wav */; };
 		6B4A9AC91B33F2C300FEA87F /* HitGround.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B4A9AC31B33F2C300FEA87F /* HitGround.wav */; };
 		6B4A9ACA1B33F2C300FEA87F /* HitWall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B4A9AC41B33F2C300FEA87F /* HitWall.wav */; };
+		6B7820191B9414D500EBE89C /* Basketball Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B7820181B9414D500EBE89C /* Basketball Background.jpg */; };
+		6B78201B1B9414DC00EBE89C /* Beach Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B78201A1B9414DC00EBE89C /* Beach Background.jpg */; };
+		6B78201D1B9414E600EBE89C /* Bowling Alley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B78201C1B9414E600EBE89C /* Bowling Alley.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		6B4A9AC21B33F2C300FEA87F /* HitBall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HitBall.wav; sourceTree = "<group>"; };
 		6B4A9AC31B33F2C300FEA87F /* HitGround.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HitGround.wav; sourceTree = "<group>"; };
 		6B4A9AC41B33F2C300FEA87F /* HitWall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HitWall.wav; sourceTree = "<group>"; };
+		6B7820181B9414D500EBE89C /* Basketball Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Basketball Background.jpg"; sourceTree = "<group>"; };
+		6B78201A1B9414DC00EBE89C /* Beach Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Beach Background.jpg"; sourceTree = "<group>"; };
+		6B78201C1B9414E600EBE89C /* Bowling Alley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bowling Alley.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,7 @@
 		6B4A9ABC1B33F2C300FEA87F /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				6B7820171B9414B600EBE89C /* Background Images */,
 				6B4A9ABD1B33F2C300FEA87F /* Balls Images */,
 				6B4A9AC11B33F2C300FEA87F /* Sound Effects */,
 			);
@@ -158,6 +165,17 @@
 				6B4A9AC41B33F2C300FEA87F /* HitWall.wav */,
 			);
 			path = "Sound Effects";
+			sourceTree = "<group>";
+		};
+		6B7820171B9414B600EBE89C /* Background Images */ = {
+			isa = PBXGroup;
+			children = (
+				6B78201C1B9414E600EBE89C /* Bowling Alley.jpg */,
+				6B78201A1B9414DC00EBE89C /* Beach Background.jpg */,
+				6B7820181B9414D500EBE89C /* Basketball Background.jpg */,
+			);
+			name = "Background Images";
+			path = "Balls Images/Background Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B78201B1B9414DC00EBE89C /* Beach Background.jpg in Resources */,
+				6B78201D1B9414E600EBE89C /* Bowling Alley.jpg in Resources */,
 				6B4A9AC71B33F2C300FEA87F /* Tennis Ball.jpg in Resources */,
+				6B7820191B9414D500EBE89C /* Basketball Background.jpg in Resources */,
 				6B4A9A981B33E46A00FEA87F /* LaunchScreen.xib in Resources */,
 				6B4A9A951B33E46A00FEA87F /* Images.xcassets in Resources */,
 				6B4A9A931B33E46A00FEA87F /* Main.storyboard in Resources */,
@@ -467,6 +488,7 @@
 				6B4A9AA91B33E46A00FEA87F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B4A9AAA1B33E46A00FEA87F /* Build configuration list for PBXNativeTarget "Keepy UppyTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +497,7 @@
 				6B4A9AAC1B33E46A00FEA87F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

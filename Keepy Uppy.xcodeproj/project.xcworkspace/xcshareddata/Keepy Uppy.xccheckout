@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>02095219-6FD7-4DCB-8E57-6B3C23A0B1E7</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Keepy Uppy</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>52CB8B01AD899B0ADDC477060E75ADFD046EE08F</key>
 		<string>https://github.com/Darthpwner/Keepy-Uppy.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Keepy Uppy.xcodeproj/project.xcworkspace</string>
+	<string>Keepy Uppy.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>52CB8B01AD899B0ADDC477060E75ADFD046EE08F</key>
